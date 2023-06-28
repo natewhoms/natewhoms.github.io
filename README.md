@@ -18,6 +18,6 @@ Customizable Design: The website's design is easily customizable, allowing me to
 ### Built With
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![Animate CSS]animate.style]][JQuery-url]
+* [![Animate CSS][animate.style][AnimateCSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

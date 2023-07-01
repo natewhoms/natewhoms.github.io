@@ -199,7 +199,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -208,7 +207,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(56, 90, 32, 0.5) -5.91%, rgba(16, 26, 8, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -247,18 +246,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+
+.banner img { 
+  max-width: 100%;
+  height: auto;
+
+  filter:grayscale(30%);
+  -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%);
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.0) 50%, );
   animation: updown 3s linear infinite;
+  transition: 0.3s ease-in-out;
 }
+
+.banner img:hover{ 
+  
+  max-width: 100%;
+  height: auto;
+  filter: none;
+  -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%);
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.0) 50%, );
+  animation: updown 3s linear infinite;
+  transition: 0.3s ease-in-out;
+}
+
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(5px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
     }
 }
 .txt-rotate > .wrap {

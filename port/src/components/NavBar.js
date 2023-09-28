@@ -4,7 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useEffect, useState } from 'react';
 import logo from '../assets/img/nwstr.svg';
 import logo2 from '../assets/img/nwstr-w.svg';
-import navIcon from '../assets/img/nav-icon1.svg'
+import navIcon from '../assets/img/icons8-linkedin.svg'
+import navIcon2 from '../assets/img/icons8-github.svg'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -44,6 +45,10 @@ export const NavBar = () => {
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
           <span className = "navbar-text">
+            <div className='social-media'>
+              <a href='https://www.linkedin.com/in/nathan-whomsley-a54040170/'><img src = {navIcon} alt = "" /></a>
+              <a href='https://github.com/natewhoms'><img src = {navIcon2} alt = "" /></a>
+            </div>
             <button className = "vvd" onClick={() => window.location = 'mailto:natewhoms@gmail.com'}><span>Contact Me</span></button>
           </span>
         </Navbar.Collapse>

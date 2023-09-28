@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "natewhoms.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,14 +13,17 @@
     "react-bootstrap": "^2.8.0",
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.4",
     "react-on-screen": "^2.1.1",
     "react-particles": "^2.10.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.10.1",
     "tsparticles": "^2.10.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }

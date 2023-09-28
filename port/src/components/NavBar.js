@@ -46,7 +46,7 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/nathan-whomsley-a54040170/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/nathan-whomsley-a54040170/"><img src={navIcon} alt="" /></a>
                 <a href="https://github.com/natewhoms"><img src={navIcon2} alt="" /></a>
               </div>
             <button className = "vvd" onClick={() => window.location = 'mailto:natewhoms@gmail.com'}><span>Contact Me</span></button>

@@ -44,11 +44,11 @@ export const NavBar = () => {
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
-          <span className = "navbar-text">
-            <div className='social-media'>
-              <a href='https://www.linkedin.com/in/nathan-whomsley-a54040170/'><img src = {navIcon} alt = "" /></a>
-              <a href='https://github.com/natewhoms'><img src = {navIcon2} alt = "" /></a>
-            </div>
+          <span className="navbar-text">
+              <div className="social-icon">
+                <a href="https://www.linkedin.com/in/nathan-whomsley-a54040170/"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/natewhoms"><img src={navIcon2} alt="" /></a>
+              </div>
             <button className = "vvd" onClick={() => window.location = 'mailto:natewhoms@gmail.com'}><span>Contact Me</span></button>
           </span>
         </Navbar.Collapse>

@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8a863a9.css",
-    "main.js": "/static/js/main.5bb0c604.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/me4.png": "/static/media/me4.12267aec6fab1365d3e3.png",
-    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/nwstr-w.svg": "/static/media/nwstr-w.46a3196945b4a6ba98bd0b7430ea8abe.svg",
-    "static/media/nwstr.svg": "/static/media/nwstr.f5cca15b376e6ce6d0c4af996227b41e.svg",
-    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "index.html": "/index.html",
-    "main.a8a863a9.css.map": "/static/css/main.a8a863a9.css.map",
-    "main.5bb0c604.js.map": "/static/js/main.5bb0c604.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/natewhoms.github.io/static/css/main.1d740bba.css",
+    "main.js": "/natewhoms.github.io/static/js/main.6c43fc33.js",
+    "static/js/787.28cb0dcd.chunk.js": "/natewhoms.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/me4.png": "/natewhoms.github.io/static/media/me4.12267aec6fab1365d3e3.png",
+    "static/media/color-sharp2.png": "/natewhoms.github.io/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/toy.png": "/natewhoms.github.io/static/media/toy.00654398032a57f49dac.png",
+    "static/media/CentraNo2-Bold.ttf": "/natewhoms.github.io/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/natewhoms.github.io/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/natewhoms.github.io/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/natewhoms.github.io/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/revicons.eot": "/natewhoms.github.io/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/natewhoms.github.io/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/natewhoms.github.io/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/natewhoms.github.io/static/media/meter2.9b419050a3cf28d843fb59704962a3e9.svg",
+    "static/media/meter1.svg": "/natewhoms.github.io/static/media/meter1.a0c861c21e081b549a389b2dfde36841.svg",
+    "static/media/meter3.svg": "/natewhoms.github.io/static/media/meter3.b20ab24bfc5e88c5c62d0f1e7e0859c7.svg",
+    "static/media/nwstr-w.svg": "/natewhoms.github.io/static/media/nwstr-w.46a3196945b4a6ba98bd0b7430ea8abe.svg",
+    "index.html": "/natewhoms.github.io/index.html",
+    "static/media/nwstr.svg": "/natewhoms.github.io/static/media/nwstr.0ba6d915808df48098ca3c0b9a24b629.svg",
+    "static/media/nav-icon1.svg": "/natewhoms.github.io/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.1d740bba.css.map": "/natewhoms.github.io/static/css/main.1d740bba.css.map",
+    "main.6c43fc33.js.map": "/natewhoms.github.io/static/js/main.6c43fc33.js.map",
+    "787.28cb0dcd.chunk.js.map": "/natewhoms.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a863a9.css",
-    "static/js/main.5bb0c604.js"
+    "static/css/main.1d740bba.css",
+    "static/js/main.6c43fc33.js"
   ]
 }

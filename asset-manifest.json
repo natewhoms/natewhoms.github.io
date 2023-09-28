@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/natewhoms.github.io/static/css/main.1d740bba.css",
-    "main.js": "/natewhoms.github.io/static/js/main.6c43fc33.js",
+    "main.css": "/natewhoms.github.io/static/css/main.ffa257b8.css",
+    "main.js": "/natewhoms.github.io/static/js/main.e6ec3253.js",
     "static/js/787.28cb0dcd.chunk.js": "/natewhoms.github.io/static/js/787.28cb0dcd.chunk.js",
     "static/media/me4.png": "/natewhoms.github.io/static/media/me4.12267aec6fab1365d3e3.png",
     "static/media/color-sharp2.png": "/natewhoms.github.io/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -20,12 +20,12 @@
     "index.html": "/natewhoms.github.io/index.html",
     "static/media/nwstr.svg": "/natewhoms.github.io/static/media/nwstr.0ba6d915808df48098ca3c0b9a24b629.svg",
     "static/media/nav-icon1.svg": "/natewhoms.github.io/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.1d740bba.css.map": "/natewhoms.github.io/static/css/main.1d740bba.css.map",
-    "main.6c43fc33.js.map": "/natewhoms.github.io/static/js/main.6c43fc33.js.map",
+    "main.ffa257b8.css.map": "/natewhoms.github.io/static/css/main.ffa257b8.css.map",
+    "main.e6ec3253.js.map": "/natewhoms.github.io/static/js/main.e6ec3253.js.map",
     "787.28cb0dcd.chunk.js.map": "/natewhoms.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d740bba.css",
-    "static/js/main.6c43fc33.js"
+    "static/css/main.ffa257b8.css",
+    "static/js/main.e6ec3253.js"
   ]
 }

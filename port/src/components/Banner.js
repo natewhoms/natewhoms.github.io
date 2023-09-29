@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Nate Whomsley, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer.","Web Developer." "Web Designer.", "Graphic Designer." ]'><span className="wrap">{text}</span></span></h1>
             <p>I'm excited to showcase some of the projects I've worked on and share my knowledge and experiences with others. Feel free to explore my portfolio and don't hesitate to reach out if you have any questions or potential collaboration opportunities!</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.location = 'mailto:natewhoms@gmail.com'}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

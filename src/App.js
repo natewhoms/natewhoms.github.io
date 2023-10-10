@@ -13,8 +13,6 @@ function App() {
       <Particle />
       <NavBar />
       <Banner />
-      <Skills/>
-      <Projects/>
     </div>
   );
 }

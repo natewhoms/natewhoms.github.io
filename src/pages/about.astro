@@ -1,0 +1,145 @@
+---
+// src/pages/about.astro - Minimal Nikola Style About Page
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import { siteConfig } from '../config';
+---
+
+<BaseLayout 
+  title="About | Nate Whoms" 
+  description="Learn more about Nate Whoms - developer, designer, and builder of digital experiences."
+>
+  <Navigation />
+  
+  <main id="main" class="py-32">
+    <div class="section-container">
+      <!-- Page Header -->
+      <div class="mb-32">
+        <span class="text-sm uppercase tracking-wide text-gray-500 dark:text-gray-500">About Me</span>
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mt-4 mb-8">
+          Building with intention
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-3xl leading-relaxed">
+          I'm a developer and designer based in {siteConfig.author.location}, focused on creating thoughtful digital experiences that solve real problems.
+        </p>
+      </div>
+
+      <div class="max-w-4xl space-y-32">
+        <!-- Story Section -->
+        <section>
+          <h2 class="text-3xl md:text-4xl font-bold mb-8">My Story</h2>
+          <div class="prose prose-lg space-y-6 text-gray-600 dark:text-gray-400">
+            <p>
+              I've always been fascinated by the intersection of design and technology. What started as curiosity about how websites work evolved into a career building digital products that people love to use.
+            </p>
+            <p>
+              Over the years, I've had the privilege of working with startups, agencies, and established companies, helping them bring their ideas to life through code and design. Each project has taught me something new about the craft of building for the web.
+            </p>
+            <p>
+              When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing what I've learned with the developer community.
+            </p>
+          </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section class="pt-16 border-t border-gray-200 dark:border-gray-800">
+          <h2 class="text-3xl md:text-4xl font-bold mb-12">What I Do</h2>
+          <div class="grid md:grid-cols-2 gap-12">
+            <!-- Development -->
+            <div>
+              <h3 class="text-xl font-bold mb-4">Development</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-6">
+                I build fast, accessible, and scalable web applications using modern technologies and best practices.
+              </p>
+              <ul class="space-y-2 text-gray-600 dark:text-gray-400">
+                <li>• React & Next.js</li>
+                <li>• TypeScript</li>
+                <li>• Node.js & Express</li>
+                <li>• PostgreSQL & MongoDB</li>
+                <li>• REST & GraphQL APIs</li>
+              </ul>
+            </div>
+
+            <!-- Design -->
+            <div>
+              <h3 class="text-xl font-bold mb-4">Design</h3>
+              <p class="text-gray-600 dark:text-gray-400 mb-6">
+                I create intuitive user interfaces and design systems that are both beautiful and functional.
+              </p>
+              <ul class="space-y-2 text-gray-600 dark:text-gray-400">
+                <li>• UI/UX Design</li>
+                <li>• Design Systems</li>
+                <li>• Prototyping</li>
+                <li>• Responsive Design</li>
+                <li>• Accessibility</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Timeline (Optional - Customize with your real experience) -->
+        <section class="pt-16 border-t border-gray-200 dark:border-gray-800">
+          <h2 class="text-3xl md:text-4xl font-bold mb-12">Experience</h2>
+          <div class="space-y-12">
+            <!-- Experience Item 1 -->
+            <div class="grid md:grid-cols-4 gap-6">
+              <div class="md:col-span-1">
+                <span class="text-sm text-gray-500 dark:text-gray-500 uppercase tracking-wide">2021 - Present</span>
+              </div>
+              <div class="md:col-span-3">
+                <h3 class="text-xl font-bold mb-2">Freelance Developer & Designer</h3>
+                <p class="text-gray-600 dark:text-gray-400">
+                  Working with clients to build custom web applications and design systems. Focus on modern web technologies and thoughtful user experiences.
+                </p>
+              </div>
+            </div>
+
+            <!-- Experience Item 2 - Add your real experience here -->
+            <div class="grid md:grid-cols-4 gap-6">
+              <div class="md:col-span-1">
+                <span class="text-sm text-gray-500 dark:text-gray-500 uppercase tracking-wide">2019 - 2021</span>
+              </div>
+              <div class="md:col-span-3">
+                <h3 class="text-xl font-bold mb-2">Senior Developer</h3>
+                <p class="text-gray-600 dark:text-gray-400 mb-2">TechCorp Inc.</p>
+                <p class="text-gray-600 dark:text-gray-400">
+                  Led development of customer-facing web applications. Implemented modern frontend architecture and improved application performance.
+                </p>
+              </div>
+            </div>
+
+            <!-- Add more experience items as needed -->
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="pt-16 border-t border-gray-200 dark:border-gray-800">
+          <h2 class="text-3xl md:text-4xl font-bold mb-8">
+            Let's work together
+          </h2>
+          <p class="text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
+            I'm currently available for select freelance projects. If you have an interesting project in mind, let's talk.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-8">
+            <a href="/contact" class="group inline-flex items-center gap-3 text-lg hover:text-primary transition-colors">
+              <span class="border-b-2 border-current">Get in touch</span>
+              <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+            <a href="/projects" class="group inline-flex items-center gap-3 text-lg text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+              <span class="border-b-2 border-transparent group-hover:border-current">View my work</span>
+              <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
+

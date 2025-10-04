@@ -1,0 +1,63 @@
+---
+// src/components/Footer.astro - Minimal Nikola Style
+import { siteConfig } from '../config';
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="border-t border-gray-200 dark:border-gray-800 mt-32">
+  <div class="section-container py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+      <!-- About -->
+      <div>
+        <h3 class="text-sm uppercase tracking-wide font-medium mb-4">{siteConfig.author.name}</h3>
+        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+          {siteConfig.author.tagline}
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <h3 class="text-sm uppercase tracking-wide font-medium mb-4">Navigation</h3>
+        <nav class="space-y-3">
+          {siteConfig.navigation.map((item) => (
+            <div>
+              <a href={item.href} class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors inline-block">
+                {item.name}
+              </a>
+            </div>
+          ))}
+        </nav>
+      </div>
+
+      <!-- Social Links -->
+      <div>
+        <h3 class="text-sm uppercase tracking-wide font-medium mb-4">Connect</h3>
+        <div class="space-y-3">
+          {Object.entries(siteConfig.socials).map(([key, social]) => (
+            <div>
+              <a
+                href={social.url}
+                target={key === 'email' ? '_self' : '_blank'}
+                rel={key === 'email' ? undefined : 'noopener noreferrer'}
+                class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors inline-block"
+              >
+                {social.name}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600 dark:text-gray-400">
+      <p>
+        © {currentYear} {siteConfig.author.name}. All rights reserved.
+      </p>
+      <p>
+        Built with <a href="https://astro.build" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-900 dark:hover:text-white transition-colors">Astro</a>
+      </p>
+    </div>
+  </div>
+</footer>
